@@ -138,8 +138,8 @@ echo "#                Restart Enigma2 GUI                    #"
 echo "#########################################################"
 sleep 2
 #if [ $OS = 'DreamOS' ]; then 
-    #systemctl restart enigma2
+    systemctl restart enigma2
 #else
-    #killall -9 enigma2
+    killall -9 enigma2
 #fi
 exit 0
